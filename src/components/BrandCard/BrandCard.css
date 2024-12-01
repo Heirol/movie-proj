@@ -1,0 +1,15 @@
+.logo {
+  margin-right: 1rem;
+  display: inline-block;
+  overflow: hidden;
+  width: 8rem;
+  border-radius: 1rem;
+  border: 0.125rem solid #060616;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.logo:hover {
+  border: 0.25rem solid #6300c7;
+  transform: scale(1.05);
+  filter: brightness(1.2) saturate(1.5);
+}

@@ -1,0 +1,14 @@
+.card-movie {
+  width: 11.5rem;
+  height: auto;
+  border-radius: 0.5rem;
+  border: none;
+  margin: 0.5rem 0.5rem 0 0;
+  object-fit: cover;
+  transition: filter 0.3s ease;
+}
+.card-movie:hover {
+  border: 0.25rem solid #6300c7;
+  cursor: pointer;
+  filter: brightness(1.1) saturate(1.5);
+}

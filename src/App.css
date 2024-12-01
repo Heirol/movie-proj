@@ -1,38 +1,160 @@
-.App {
-  text-align: center;
+/* ========== GENERAL ========== */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  box-sizing: border-box;
+  color: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: rgb(6, 6, 22);
+}
+.container {
+  width: 75rem;
+  padding: 1rem;
+  margin: auto;
+  position: relative;
+}
+.divider {
+  height: 0.125rem;
+  background-color: #201338;
+  margin: 2rem 0;
+}
+nav {
+  padding: 0.5rem 2cap;
+  background-color: #0f0525;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* ========== BUTTON & CTA ========== */
+button {
+  height: 3rem;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #3f0097;
+  cursor: pointer;
+}
+button:hover {
+  filter: brightness(200%);
+}
+.btn-nav {
+  background-color: transparent;
+  display: inline-block;
+  padding: 0.25rem 0.25rem 0.65rem 0.25rem;
+  margin-right: 1rem;
+}
+input {
+  height: 3rem;
+  width: 100%;
+  padding: 0 1rem;
+  margin-right: 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #201338;
+}
+input::placeholder {
+  opacity: 0.2;
+  color: #ffffff;
+}
+.logo-nav {
+  width: 3rem;
+  height: auto;
+  border-radius: 0.25rem;
+  margin-right: 1rem;
+}
+.logo-nav:hover {
+  filter: brightness(120%);
+  border: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* ========== HEADING ========== */
+h1 {
+  margin: 2rem 0 1rem 0;
+}
+h3 {
+  margin: 1.5rem 0 0.5rem 0;
+}
+
+/* ========== SPACING ========== */
+.mg-left-md {
+  margin-left: 1rem;
+}
+.mg-left-sm {
+  margin-left: 0.5rem;
+}
+.mg-right-md {
+  margin-right: 1rem;
+}
+.mg-right-sm {
+  margin-right: 0.5rem;
+}
+.mg-top-md {
+  margin-top: 1rem;
+}
+.mg-btm-md {
+  margin-bottom: 1rem;
+}
+.mg-btm-lg {
+  margin-bottom: 1.5rem;
+}
+
+/* ========== OTHER ========== */
+.avatar {
+  width: 3rem;
+  height: 3rem;
+  background-color: #3f0097;
+}
+img {
+  border: none;
+}
+img:hover {
+  border: 0.25rem solid #6300c7;
+  cursor: pointer;
+}
+.icon {
+  position: relative;
+  font-size: 1.2rem;
+  top: 0.2rem;
+  margin-right: 0.5rem;
+}
+.search {
+  width: 20rem;
+}
+.flex {
   display: flex;
-  flex-direction: column;
+}
+.jc-space-between {
+  justify-content: space-between;
+}
+.ai-center {
   align-items: center;
+}
+.jc-center {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* ======= LOGIN PAGE ======= */
+.login {
+  background-color: #13082a;
+  width: 30rem;
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 0.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn-login {
+  width: 100%;
+}
+.label-login {
+  display: inline-block;
+  margin: 0.5rem 0 0.5rem 0;
 }

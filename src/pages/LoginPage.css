@@ -1,0 +1,14 @@
+.header-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-login {
+  display: block;
+  width: 8rem;
+  border-radius: 0.5rem;
+}
+.logo-login:hover {
+  border: none;
+  cursor: default;
+}
